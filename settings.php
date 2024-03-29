@@ -47,12 +47,12 @@ function themeoptions_page(){
 					<tr><th class="subtitle"><h2><?php _e("全局", 'argon');?></h2></th></tr>
 					<tr><th class="subtitle"><h3><?php _e("主题色", 'argon');?></h3></th></tr>
 					<tr>
-						<th><label><?php _e("主题颜色", 'argon');?></label></th>
+						<th><label><?php _e("主题颜色", '小站绿');?></label></th>
 						<td>
-							<input type="color" class="regular-text" name="argon_theme_color" value="<?php echo get_option('argon_theme_color') == "" ? "#5e72e4" : get_option('argon_theme_color'); ?>" style="height:40px;width: 80px;cursor: pointer;"/>
-							<input type="text" readonly name="argon_theme_color_hex_preview" value="<?php echo get_option('argon_theme_color') == "" ? "#5e72e4" : get_option('argon_theme_color'); ?>" style="height: 40px;width: 80px;vertical-align: bottom;background: #fff;cursor: pointer;" onclick="$('input[name=\'argon_theme_color\']').click()"/></p>
+							<input type="color" class="regular-text" name="argon_theme_color" value="<?php echo get_option('argon_theme_color') == "" ? "#03c9a9" : get_option('argon_theme_color'); ?>" style="height:40px;width: 80px;cursor: pointer;"/>
+							<input type="text" readonly name="argon_theme_color_hex_preview" value="<?php echo get_option('argon_theme_color') == "" ? "#03c9a9" : get_option('argon_theme_color'); ?>" style="height: 40px;width: 80px;vertical-align: bottom;background: #fff;cursor: pointer;" onclick="$('input[name=\'argon_theme_color\']').click()"/></p>
 							<p class="description"><div style="margin-top: 15px;"><?php _e("选择预置颜色 或", 'argon');?> <span onclick="$('input[name=\'argon_theme_color\']').click()" style="text-decoration: underline;cursor: pointer;"><?php _e("自定义色值", 'argon');?></span>
-								<br/><br/><?php _e("预置颜色：", 'argon');?></div>
+								<br/><br/><?php _e("预置颜色：", '小站绿');?></div>
 								<div class="themecolor-preview-container">
 									<div class="themecolor-preview-box"><div class="themecolor-preview" style="background:#5e72e4;" color="#5e72e4"></div><div class="themecolor-name">Argon (<?php _e("默认", 'argon');?>)</div></div>
 									<div class="themecolor-preview-box"><div class="themecolor-preview" style="background:#fa7298;" color="#fa7298"></div><div class="themecolor-name"><?php _e("粉", 'argon');?></div></div>
